@@ -6,10 +6,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeScreen from '../screens/HomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import {NavigationContainer} from '@react-navigation/native';
-const RootNavigation = props => {
+
+const RootNavigation = () => {
   const [isLogged, setIsLogged] = useState(false);
   const [isLoader, setIsLoader] = useState(false);
-  //Stack
+  
   const Stack = createStackNavigator();
 
   useEffect(() => {
