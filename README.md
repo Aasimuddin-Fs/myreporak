@@ -6,7 +6,7 @@ After that run ```npx react-native run-android```
 
 For **IOS** follow these steps : 
 In root directory run ```npm i```
-Then cd ios 
+Then ```cd ios``` 
 Then run ```pod install``` 
 Then in root directory run ```npx react-native run-ios``` or use xCode to run the app 
 
